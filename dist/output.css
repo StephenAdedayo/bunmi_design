@@ -624,9 +624,9 @@ video {
   top: 5rem;
 }
 
-.top-\[\] {
+/* .top-\[\] {
   top: ;
-}
+} */
 
 .top-\[500px\] {
   top: 500px;
@@ -640,9 +640,9 @@ video {
   bottom: 0px;
 }
 
-.right-\[\] {
+/* .right-\[\] {
   right: ;
-}
+} */
 
 .right-\[300px\] {
   right: 300px;
@@ -656,13 +656,13 @@ video {
   right: 500px;
 }
 
-.bottom-\[\] {
+/* .bottom-\[\] {
   bottom: ;
-}
+} */
 
-.bottom-\[-\] {
+/* .bottom-\[-\] {
   bottom: -;
-}
+} */
 
 .bottom-\[-100px\] {
   bottom: -100px;
@@ -826,9 +826,9 @@ video {
   height: 100vh;
 }
 
-.h-\[\] {
+/* .h-\[\] {
   height: ;
-}
+} */
 
 .h-\[500px\] {
   height: 500px;
@@ -863,9 +863,9 @@ video {
   width: 100%;
 }
 
-.w-\[\] {
+/* .w-\[\] {
   width: ;
-}
+} */
 
 .w-\[100px\] {
   width: 100px;
@@ -1072,9 +1072,9 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-\[\] {
+/* .rounded-\[\] {
   border-radius: ;
-}
+} */
 
 .rounded-\[100\] {
   border-radius: 100;
@@ -1723,4 +1723,11 @@ video {
     --tw-shadow-color: #1e293b;
     --tw-shadow: var(--tw-shadow-colored);
   }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+*{
+    font-family: 'cabin', 'sans-serif';
 }

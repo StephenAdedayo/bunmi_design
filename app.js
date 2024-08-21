@@ -10,18 +10,5 @@ menu.addEventListener('click', () => {
 })
 
 
-// window.onScroll(() => {
-//     menu.classList.remove('fa-xmark')
-//     navBar.classList.remove('hidden')
-// })
 
-window.addEventListener('scroll', addition)
 
-const addition = () => {
-    if(window.scrollY >= 80){
-        navMenu.classList.add('bg-white')
-
-    } else
-    navMenu.classList.remove('bg-white')
-
-}
