@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+</head>
+<body>
+    
+<header>
+<nav id="navver" class="py-5 xl:px-40 px-5 w-full bg-transparent  flex justify-between items-center ">
+    <div class="rounded-full  h-[50px] w-[50px]">
+     <img class="h-[50px] w-[50px] rounded-full bg-cover " src="https://img.freepik.com/premium-photo/street-style-inspiration-vibrant-posing-urban-environment-capturing-energy-colorful_996993-134706.jpg?ga=GA1.1.1642242442.1716375531&semt=ais_hybrid" alt="">
+    </div>
+
+
+    <ul class="md:flex items-center hidden  space-x-10 uppercase text-sm font-[500]">
+        <li><a class="transition-all duration-150 delay-75 hover:tracking-wide border-b-4 border-indigo-800 hover:text-indigo-800" href=""> Home</a></li>
+        <li><a class="transition-all duration-150 delay-75 hover:tracking-wide hover:text-indigo-800"  href=""> About</a></li>
+        <li><a class="transition-all duration-150 delay-75 hover:tracking-wide hover:text-indigo-800"  href=""> Services</a></li>
+        <li><a class="transition-all duration-150 delay-75 hover:tracking-wide hover:text-indigo-800"  href=""> Contact</a></li>
+        <li><a class="transition-all duration-150 delay-75 hover:tracking-wide hover:text-indigo-800"  href=""> Project</a></li>
+    </ul>
+
+
+
+    <div class="md:block hidden">
+        <button class="bg-indigo-700 hover:rounded-3xl ease-in-out transition-all duration-150 delay-100 hover:bg-indigo-800 text-white px-6 py-3 rounded-md">Build</button>
+        <button class="bg-indigo-700 hover:rounded-3xl ease-in-out transition-all duration-150 delay-100 hover:bg-indigo-800 text-white px-6 py-3 rounded-md">Develop</button>
+    </div>
+
+
+    <div id="menu-icon" class=" fa-solid fa-bars bg-white p-1 rounded-md text-2xl block md:hidden z-50">
+</nav>
+
+
+<nav id="nav-bar" class="fixed z-30 hidden top-0 right-0 p-20 space-y-5 text-white rounded-b-lg h-full  bg-indigo-800">
+    <ul class=" items-center   space-y-10 uppercase text-sm font-[500]">
+        <li><a class="transition-all duration-150 delay-75 hover:tracking-wide border-b-4 border-indigo-800 hover:text-indigo-800" href=""> Home</a></li>
+        <li><a class="transition-all duration-150 delay-75 hover:tracking-wide hover:text-indigo-800"  href=""> About</a></li>
+        <li><a class="transition-all duration-150 delay-75 hover:tracking-wide hover:text-indigo-800"  href=""> Services</a></li>
+        <li><a class="transition-all duration-150 delay-75 hover:tracking-wide hover:text-indigo-800"  href=""> Contact</a></li>
+        <li><a class="transition-all duration-150 delay-75 hover:tracking-wide hover:text-indigo-800"  href=""> Project</a></li>
+    </ul>
+
+    <div class="">
+        <button class="bg-indigo-800 border-2 border-white hover:bg-indigo-950 text-white px-6 py-3 rounded-md">Sign In</button>
+        <button class="bg-indigo-800 border-2 border-white hover:bg-indigo-950 text-white px-6 py-3 rounded-md">Sign Out</button>
+    </div>
+</nav>
+
+
+
+</header>
+
+
+
+
+<section class="h-screen lg:px-40 px-5 relative bg-gradient-to-t from-indigo-200 overflow-hidden">
+ 
+    
+        
+    <div class="absolute md:left-[100px] lg:top-[200px] top-[50px]">
+   <h1 class="text-4xl">Omoloba <span class="text-indigo-900 font-bold">OluwaBunmi</span> </h1>
+   <p id="text" class="text-3xl text-red-600"></p>  
+
+
+
+    </div>
+
+
+    <div class="w-[600px] h-[600px] xl:block hidden -z-10 bg-indigo-600 rounded-full mx-auto right-0 left-0 absolute bottom-[-100px] ">
+
+    </div>
+
+    <div class="mx-auto  xl:right-[500px]  right-[10px] absolute bottom-[20px] z-10 ">
+  <img class="" src="./bunn-removebg-preview.png" alt="">
+    </div>
+    
+
+    <div class="hidden xl:flex flex-col gap-5 space-y-2 p-5 absolute top-[100px] m-auto right-14 z-20 bg-white  h-fit w-1/3  rounded-md shadow-lg">
+        <h1 class="text-4xl font-bold text-indigo-900">Hi i'm Oluwabunmi</h1>
+        <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae velit eos quia aperiam. Asperiores, error eaque! Illo sequi fugiat iste.</p>
+        <a href="#contact" class="bg-indigo-600 text-white text-xl my-2  px-3 py-2 rounded-full font-semibold w-fit hover:tracking-tight hover:bg-sky-800">Hire me</a>
+      </div>
+
+    
+    
+    
+   
+
+</section>
+
+<section class="my-40 lg:px-40 px-5 bg-gray-100 p-10">
+
+<div class="flex justify-between items-center gap-20 md:flex-row flex-col-reverse">
+
+<div>
+    <img src="./bunn-removebg-preview.png" alt="">
+</div>
+
+
+
+<div class="space-y-4">
+    <h1 class="text-5xl text-indigo-600">About Me</h1>
+    <div class="space-y-1">
+        <p class="text-2xl font-[400] italic">Better Design</p>
+        <p class="text-2xl font-[400] italic">Better Experience</p>
+        <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, fuga.</p>
+    
+    </div>
+
+    <div class="space-y-2">
+        <p class="text-gray-400 font-[400] text-xl">Html</p>
+        <div class="w-full h-[10px] relative rounded-lg bg-gray-400">
+         <div class="absolute w-full rounded-lg h-[10px] top-0 bg-indigo-600">
+
+         </div>
+        </div>
+
+        <div class="space-y-2">
+            <p class="text-gray-400 font-[400] text-xl">Css</p>
+            <div class="w-full h-[10px] relative rounded-lg bg-gray-400">
+             <div class="absolute w-[400px] rounded-lg h-[10px] top-0 bg-indigo-600">
+    
+             </div>
+            </div>
+            <div class="space-y-2">
+                <p class="text-gray-400 font-[400] text-xl">JavaScript</p>
+                <div class="w-full h-[10px] relative rounded-lg bg-gray-400">
+                 <div class="absolute w-[300px] rounded-lg h-[10px] top-0 bg-indigo-600">
+        
+                 </div>
+                </div>
+    </div>
+</div>
+<div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<section class="my-40 px-5 lg:px-40">
+
+ <div class="space-y-2 text-center">
+    <h1 class="text-4xl text-indigo-600 font-semibold">Services</h1>
+    <p class="text-xl font-semibold">What do I offer?</p>
+    <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, aperiam?</p>
+ </div>
+
+
+
+ <div class=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
+
+    <div class="w-full   shadow-xl my-3 md:my-10  rounded-lg p-10 flex flex-col gap-3">
+        <img class="w-10" src="./icon.png" alt="">
+        <h1 class="font-medium text-lg dark:text-white ">UX/UI Design</h1>
+        <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, doloremque.</p>
+        <a class="text-indigo-600 font-semibold text-sm" href="">Read more</a>
+      </div>
+
+      <div class="w-full   shadow-xl my-3 md:my-10  rounded-lg p-10 flex flex-col gap-3">
+        <img class="w-10" src="./icon.png" alt="">
+        <h1 class="font-medium text-lg dark:text-white ">UX/UI Design</h1>
+        <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, doloremque.</p>
+        <a class="text-indigo-600 font-semibold text-sm" href="">Read more</a>
+      </div>
+
+      <div class="w-full   shadow-xl my-3 md:my-10  rounded-lg p-10 flex flex-col gap-3">
+        <img class="w-10" src="./icon.png" alt="">
+        <h1 class="font-medium text-lg dark:text-white ">UX/UI Design</h1>
+        <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, doloremque.</p>
+        <a class="text-indigo-600 font-semibold text-sm" href="">Read more</a>
+      </div>
+
+
+      <div class="w-full  shadow-xl my-3 md:my-10  rounded-lg p-10 flex flex-col gap-3">
+        <img class="w-10" src="./icon.png" alt="">
+        <h1 class="font-medium text-lg dark:text-white ">UX/UI Design</h1>
+        <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, doloremque.</p>
+        <a class="text-indigo-600 font-semibold text-sm" href="">Read more</a>
+      </div>
+
+      <div class="w-full   shadow-xl my-3 md:my-10  rounded-lg p-10 flex flex-col gap-3">
+        <img class="w-10" src="./icon.png" alt="">
+        <h1 class="font-medium text-lg dark:text-white ">UX/UI Design</h1>
+        <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, doloremque.</p>
+        <a class="text-indigo-600 font-semibold text-sm" href="">Read more</a>
+      </div>
+
+      <div class="w-full   shadow-xl my-3 md:my-10  rounded-lg p-10 flex flex-col gap-3">
+        <img class="w-10" src="./icon.png" alt="">
+        <h1 class="font-medium text-lg dark:text-white ">UX/UI Design</h1>
+        <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, doloremque.</p>
+        <a class="text-indigo-600 font-semibold text-sm" href="">Read more</a>
+      </div>
+
+
+ </div>
+
+
+</section>
+
+
+
+<section class="my-40 px-5 lg:px-40 ">
+
+<div class="text-center space-y-2">
+    <h1 class="text-4xl text-indigo-600 font-semibold">Portfolio</h1>
+    <p class="text-xl font-semibold">Works And Projects</p>
+    <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, repellendus!</p>
+</div>
+
+<div class="mt-20 grid xl:grid-cols-4 md:grid-cols-3 max-md:grid-cols-2 gap-10 grid-cols-1">
+
+    <div class="w-fit rounded-lg">
+        <img class="rounded-lg w-fit" src="https://img.freepik.com/free-photo/top-view-hands-typing-keyboard_23-2149762479.jpg?ga=GA1.1.1642242442.1716375531&semt=ais_hybrid" alt="">
+        </div>
+
+        <div class="w-fit rounded-lg">
+            <img class="rounded-lg w-fit" src="https://img.freepik.com/free-photo/group-multinational-busy-people-working-office_146671-15660.jpg?ga=GA1.1.1642242442.1716375531&semt=ais_hybrid" alt="">
+            </div>
+
+            <div class="w-fit rounded-lg">
+                <img class="rounded-lg w-fit" src="https://img.freepik.com/free-photo/businessman-student-working-from-home-while-being-isolated-keep-quarantine-coronavirus-covid-19_155003-4230.jpg?ga=GA1.1.1642242442.1716375531&semt=ais_hybrid" alt="">
+                </div>
+
+                <div class="w-fit rounded-lg">
+                    <img class="rounded-lg w-fit" src="https://img.freepik.com/free-photo/business-woman-working-office_1098-17564.jpg?ga=GA1.1.1642242442.1716375531&semt=ais_hybrid" alt="">
+                    </div>
+
+                    <div class="w-fit rounded-lg">
+                        <img class="rounded-lg w-fit" src="https://img.freepik.com/free-photo/business-executive-using-virtual-reality-headset-working-laptop_107420-65761.jpg?ga=GA1.1.1642242442.1716375531&semt=ais_hybrid" alt="">
+                        </div>
+
+                        <div class="w-fit rounded-lg">
+                            <img class="rounded-lg w-fit" src="https://img.freepik.com/free-photo/tech-startup-founder-programming-ai-software-database_482257-90860.jpg?ga=GA1.1.1642242442.1716375531&semt=ais_hybrid" alt="">
+                            </div>
+
+                            <div class="w-fit rounded-lg">
+                                <img class="rounded-lg w-fit" src="https://img.freepik.com/free-photo/reviewer-unhappy-with-dj-controller_482257-81648.jpg?ga=GA1.1.1642242442.1716375531&semt=ais_hybrid" alt="">
+                                </div>
+
+                                <div class="w-fit rounded-lg">
+                                    <img class="rounded-lg w-fit" src="https://img.freepik.com/free-photo/industrial-designer-working-3d-model_23-2149370145.jpg?ga=GA1.1.1642242442.1716375531&semt=ais_hybrid" alt="">
+                                    </div>
+
+
+</div>
+
+</section>
+
+
+<section class="my-40 px-5 lg:px-40">
+
+<div class="text-center space-y-2">
+    <h1 class="text-4xl text-indigo-600 font-semibold">Contact</h1>
+    <p class="text-xl font-semibold capitalize">do you have any question? Contact Us</p>
+    <p class="text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, repellendus!</p>
+</div>
+
+
+<form action="" class="w-full mt-20 flex flex-col gap-4 justify-center items-center">
+
+    <div class="relative sm:w-[500px] w-full ">
+        <input class="outline-none rounded-lg focus:border-2 focus:border-indigo-600 peer border-2 w-full  px-3 py-3 " type="text">
+        <label class="bg-white px-2 absolute peer-focus:top-[-10px]  transition-all ease-in duration-150 delay-75 top-[12px] left-[20px] " for="">Name</label>
+    </div>
+
+    <div class="relative sm:w-[500px] w-full">
+        <input class="outline-none rounded-lg focus:border-2 focus:border-indigo-600 peer border-2 w-full  px-3 py-3 " type="email">
+        <label class="bg-white px-2 absolute peer-focus:top-[-10px]  transition-all ease-in duration-150 delay-75 top-[12px] left-[20px] " for="">Email</label>
+    </div>
+
+
+    <div class="relative sm:w-[500px] w-full">
+        
+            <textarea class="outline-none rounded-lg focus:border-2 focus:border-indigo-600 peer border-2 w-full  px-3 py-3" name="" id="" rows="10" cols=""></textarea>
+        <label class="bg-white px-2 absolute peer-focus:top-[-10px]  transition-all ease-in duration-150 delay-75 top-[12px] left-[20px] " for="">Message</label>
+    </div>
+
+
+
+
+
+
+
+
+</form>
+
+
+</section>
+
+
+
+
+<div class="w-full px-5 xl:px-40 top-0 bg-gray-800  ">
+    <div class="container mx-auto py-5 flex items-center justify-between ">
+      <div class="flex items-center gap-2">
+        <div class="rounded-full  h-[50px] w-[50px]">
+            <img class="h-[50px] w-[50px] rounded-full bg-cover " src="https://img.freepik.com/premium-photo/street-style-inspiration-vibrant-posing-urban-environment-capturing-energy-colorful_996993-134706.jpg?ga=GA1.1.1642242442.1716375531&semt=ais_hybrid" alt="">
+           </div>
+          <span class="text-2xl font-bold text-white">OluwaBunmi</span>
+      </div>
+
+      <span class="text-white hidden md:block dark:text-white font-medium">Website created by Omoloba OluwaBunmi</span>
+      
+
+      
+
+      <div class="flex gap-2 pr-5 ">
+        <i class="fa-brands fa-facebook text-xl  mr-2 text-blue-500 pt-1 px-1" ></i>
+        <i class="fa-brands fa-instagram text-xl text-red-500  bg- mr-2 pt-1"></i>
+        <i class="fa-brands fa-twitter text-xl text-blue-600 p-1 mr-2 "></i>
+        <i class="fa-brands fa-linkedin text-2xl text-blue-500 mr-2 "></i>
+      </div>
+    </div> 
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="./autotyping.js"></script>
+</body>
+</html>
